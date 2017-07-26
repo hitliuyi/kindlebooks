@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Notation</title>
+<link type="text/css" href="styles.css" rel="Stylesheet"/>
+</head>
+<body>
+
+<h1>Notation</h1>
+This section provides a concise reference describing the notation used throughout this book. 
+If you are unfamiliar with any of the corresponding mathematical concepts,
+we describe most of these ideas in chapters 2-4.
+
+
+<p class="subtitle">Numbers and Arrays</p>
+&alpha; &emsp;      A scalar (integer or real) <br/>
+<b>&alpha;</b> &emsp;      A vector <br/>
+<i><b>A</b></i> &emsp;      A matrix <br/>
+&#x1D5D4; &emsp;      A tensor <br/>
+<i><b>I</b></i><sub>&nscr;</sub> &emsp;      Identity matrix with &nscr; rows and &nscr; columns <br/>
+<i><b>I</b></i> &emsp;      Identity matrix with dimensionality implied by context <br/>
+e<sup>(&iscr;)</sup> &emsp;      Standard basis vector [0, . . . ,0,1,0, . . . ,0] with a 1 at position &iscr; <br/>
+diag(<b>&alpha;</b>) &emsp;      A square, diagonal matrix with diagonal entries given by <b>&alpha;</b> <br/>
+a &emsp;      A scalar random variable <br/>
+<b>a</b> &emsp;      A vector-valued random variable <br/>
+<b>A</b> &emsp;      A matrix-valued random variable <br/>
+
+<p class="subtitle">Sets and Graphs</p>
+&Aopf; &emsp;      A set <br/>
+&reals; &emsp;       The set of real numbers <br/>
+{0, 1} &emsp;      The set containing 0 and 1 <br/>
+{0, 1, . . . , &nscr;} &emsp;      The set of all integers between 0 and &nscr; <br/>
+[&alpha;, b] &emsp;      The real interval including &alpha; and b <br/>
+(&alpha;, b] &emsp;      The real interval excluding &alpha; but including b <br/>
+&Aopf;\&Bopf; &emsp;     Set subtraction, i.e., the set containing the elements of &Aopf; that are not in &Bopf; <br/>
+&Gscr; &emsp;      A graph <br/>
+Pa&Gscr;(x<sub>&iscr;</sub>) &emsp;      The parents of x<sub>&iscr;</sub> in &Gscr; <br/>
+
+<p class="subtitle">Indexing</p>
+&alpha;<sub>&iscr;</sub> &emsp;      Element &iscr; of vector <b>&alpha;</b>, with indexing starting at 1 <br/>
+&alpha;<sub>-&iscr;</sub> &emsp;      All elements of vector <b>&alpha;</b> except for element &iscr; <br/>
+<i>A</i><sub>&iscr;,&jscr;</sub> &emsp;      Element &iscr;, &jscr; of matrix <i><b>A</b></i>  <br/>
+<i><b>A</b></i><sub>&iscr;,:</sub> &emsp;      Row &iscr; of matrix <i><b>A</b></i> <br/>
+<i><b>A</b></i><sub>:,&iscr;</sub> &emsp;      Column &iscr; of matrix <i><b>A</b></i> <br/>
+&#x1D5A0;<sub>&iscr;,&jscr;,&kscr;</sub> &emsp;      Element (&iscr;, &jscr;, &kscr;) of a 3-D tensor <b>&Acirc;</b> <br/>
+&#x1D5D4;<sub>:,:,&iscr;</sub> &emsp;       2-D slice of a 3-D tensor <br/>
+a<sub>&iscr;</sub> &emsp;      Element &iscr; of the random vector <b>a</b> <br/>
+
+<p class="subtitle">Linear Algebra Operations</p>
+<i><b>A</b></i><sup>T</sup> &emsp;      Transpose of matrix <i><b>A</b></i> <br/>
+<i><b>A</b></i><sup>+</sup> &emsp;      Moore-Penrose pseudoinverse of <i><b>A</b></i> <br/>
+<i><b>A</b></i>&#8857;<i><b>B</b></i> &emsp;      Element-wise (Hadamard) product of <i><b>A</b></i> and <i><b>B</b></i> <br/>
+det(<i><b>A</b></i>) &emsp;      Determinant of <i><b>A</b></i> <br/>
+&dscr;&yscr;/&dscr;&xscr; &emsp;      Derivative of &yscr; with respect to &xscr; <br/>
+&part;&yscr;/&part;&xscr; &emsp;      Partial derivative of &yscr; with respect to &xscr; <br/>
+&nabla;<sub>&xscr;</sub>&yscr; &emsp;      Gradient of &yscr; with respect to &xscr; <br/>
+&nabla;<sub><b><i>X</i></b></sub>&yscr; &emsp;      Matrix derivatives of &yscr; with respect to <b><i>X</i></b> <br/>
+&nabla;<sub>&#x1D5EB;</sub>&yscr; &emsp;       Tensor containing derivatives of &yscr; with respect to &#x1D5EB; <br/>
+&part;&fscr;/&part;&xscr; &emsp;      Jacobian matrix <b><i>J</i></b> &isin; &reals;<sup>mxn</sup> of &fscr; : &reals;<sup>n</sup> &xrarr; &reals;<sup>m</sup> <br/>
+&nabla;<sup>2</sup><sub>&xscr;</sub>&fscr;(&xscr;) or <b><i>H</i></b>(&fscr;)(&xscr;) &emsp;      The Hessian matrix of &fscr; at input point &xscr; <br/>
+&int;&fscr;(&xscr;)&dscr;&xscr; &emsp;      Definite integral over the entire domain of &xscr; <br/>
+&int;<sub>&Sopf;</sub>&fscr;(&xscr;)&dscr;&xscr; &emsp;      Definite integral with respect to &xscr; over the set &Sopf; <br/>
+
+<p class="subtitle">Probability and Information Theory</p>
+a&perp;b &emsp;      The random variables a and b are independent <br/>
+a&perp;b|c &emsp;       They are conditionally independent given c <br/>
+<i>P</i>(a) &emsp;       A probability distribution over a discrete variable <br/>
+&pscr;(a) &emsp;      A probability distribution over a continuous variable, or over a variable whose type has not been specified <br/>
+a &sim; <i>P</i> &emsp;      Random variable a has distribution <i>P</i> <br/>
+&Eopf;<sub>x&sim;<i>P</i></sub>[&fscr;(&xscr;)] or &Eopf;&fscr;(&xscr;) &emsp;       Expectation of &fscr;(&xscr;) with respect to <i>P</i>(x) <br/>
+Var(&fscr;(&xscr;)) &emsp;      Variance of &fscr;(&xscr;) under <i>P</i>(x) <br/>
+Cov(&fscr;(&xscr;), &gscr;(&xscr;)) &emsp;     Covariance of &fscr;(&xscr;) and &gscr;(&xscr;) under <i>P</i>(x) <br/>
+<i>H</i>(x) &emsp;      Shannon entropy of the random variable x <br/>
+<i>D</i><sub>KL</sub>(<i>P</i>&#8741;<i>Q</i>) &emsp;      Kullback-Leibler divergence of P and Q <br/>
+&Nscr;(&xscr;,&mu;,&Sigma;) &emsp;      Gaussian distribution over &xscr; with mean &mu; and covariance &Sigma; <br/>
+&fscr; : &Aopf;&xrarr;&Bopf; &emsp;       The function &fscr; with domain &Aopf; and range &Bopf; <br/>
+&fscr; &#8728; &gscr; &emsp;       Composition of the functions &fscr; and &gscr; <br/>
+&fscr;(&xscr;;&theta;) &emsp;       A function of &xscr; parametrized by &theta;. (Sometimes we write &fscr;(&xscr;) and omit the argument &theta; to lighten notation) <br>
+log&xscr; &emsp;       Natural logarithm of &xscr; <br/>
+&sigma;(&xscr;) &emsp;      Logistic sigmoid, (1 + exp(-&xscr;))<sup>-1</sup> <br/>
+&zeta;(&xscr;) &emsp;      Softplus, log(1 + exp(&xscr;)) <br/>
+&#8741;&xscr;&#8741;<sub>&pscr;</sub> &emsp;      <i>L</i><sup>&pscr;</sup> norm of &xscr; <br/>
+&#8741;&xscr;&#8741; &emsp;      <i>L</i><sup>2</sup> norm of &xscr; <br/>
+&xscr;<sup>+</sup> &emsp;       Positive part of &xscr;, i.e., max(0, &xscr;) <br/>
+1<sub>condition</sub> &emsp;       is 1 if the condition is true, 0 otherwise <br/>
+
+<p class="subtitle">Datasets and Distributions</p>
+&pscr;<sub>data</sub> &emsp;      The data generating distribution <br/>
+&Xopf; &emsp;       A set of training examples <br/>
+&xscr;<sup>(&iscr;)</sup> &emsp;      The &iscr;-th example (input) from a dataset <br/>
+&yscr;<sup>(&iscr;)</sup> &emsp;      The target associated with &xscr;<sup>(&iscr;)</sup> for supervised learning <br/>
+<i><b>X</b></i> &emsp;      The &mscr;&times;&nscr; matrix with input example &xscr;<sup>(&iscr;)</sup> in row <i><b>X</b></i><sub>&iscr;,:</sub> <br/>
+
+</body>
+</html>

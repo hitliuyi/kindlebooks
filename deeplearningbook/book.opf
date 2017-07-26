@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+	<metadata>
+		<dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+			<dc:Title>Deep Learning</dc:Title>
+			<dc:Language>en</dc:Language>
+			<dc:Creator>Ian Goodfellow and Yoshua Bengio and Aaron Courville</dc:Creator>
+			<dc:Copyrights>MIT Press</dc:Copyrights>
+			<dc:Publisher>MIT Press</dc:Publisher>
+			<x-metadata>
+				<EmbeddedCover>images/cover.jpg</EmbeddedCover>
+			</x-metadata>
+		</dc-metadata>
+	</metadata>
+	<manifest>
+		<item id="content" media-type="text/x-oeb1-document" href="toc.html"></item>
+		<item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+                <item id="notation" media-type="text/x-oeb1-document" href="notation.html"></item>
+                <item id="introduction" media-type="text/x-oeb1-document" href="introduction.html"></item>
+                <item id="math_ml_basics" media-type="text/x-oeb1-document" href="math_ml_basics.html"></item>
+                <item id="linear_algebra" media-type="text/x-oeb1-document" href="linear_algebra.html"></item>
+                <item id="probability" media-type="text/x-oeb1-document" href="probability.html"></item>
+                <item id="numerical" media-type="text/x-oeb1-document" href="numerical.html"></item>
+                <item id="ml_basics" media-type="text/x-oeb1-document" href="ml_basics.html"></item>
+                <item id="dp" media-type="text/x-oeb1-document" href="dp.html"></item>
+                <item id="deep_feedforward_networks" media-type="text/x-oeb1-document" href="deep_feedforward_networks.html"></item>
+                <item id="regularization" media-type="text/x-oeb1-document" href="regularization.html"></item>
+                <item id="optimization" media-type="text/x-oeb1-document" href="optimization.html"></item>
+                <item id="cnn" media-type="text/x-oeb1-document" href="cnn.html"></item>
+                <item id="rnn" media-type="text/x-oeb1-document" href="rnn.html"></item>
+                <item id="practical_methodology" media-type="text/x-oeb1-document" href="practical_methodology.html"></item>
+                <item id="applications" media-type="text/x-oeb1-document" href="applications.html"></item>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="content"/>
+		<itemref idref="notation"/>
+		<itemref idref="introduction"/>
+		<itemref idref="math_ml_basics"/>
+		<itemref idref="linear_algebra"/>
+		<itemref idref="probability"/>
+		<itemref idref="numerical"/>
+		<itemref idref="ml_basics"/>
+		<itemref idref="dp"/>
+		<itemref idref="deep_feedforward_networks"/>
+		<itemref idref="regularization"/>
+		<itemref idref="optimization"/>
+		<itemref idref="cnn"/>
+		<itemref idref="rnn"/>
+		<itemref idref="practical_methodology"/>
+		<itemref idref="applications"/>
+	</spine>
+	<guide>
+		<reference type="toc" title="Table of Contents" href="toc.html"/>
+	</guide>
+</package>

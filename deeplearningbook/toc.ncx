@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+  </head>
+  <docTitle>
+    <text>KF8</text>
+  </docTitle>
+<navMap>
+<navPoint id="navpoint-1" playOrder="1"><navLabel><text>Content</text></navLabel><content src="toc.html#toc"/></navPoint>
+<navPoint id="navpoint-2" playOrder="2"><navLabel><text>Notation</text></navLabel><content src="notation.html"/></navPoint>
+<navPoint id="navpoint-3" playOrder="3"><navLabel><text>Introduction</text></navLabel><content src="introduction.html"/></navPoint>
+<navPoint id="navpoint-4" playOrder="4"><navLabel><text>Part I: Applied Math and Machine Learning Basics</text></navLabel><content src="math_ml_basics.html"/></navPoint>
+<navPoint id="navpoint-5" playOrder="5"><navLabel><text>Linear Algebra</text></navLabel><content src="linear_algebra.html"/></navPoint>
+<navPoint id="navpoint-6" playOrder="6"><navLabel><text>Probability and Information Theory</text></navLabel><content src="probability.html"/></navPoint>
+<navPoint id="navpoint-7" playOrder="7"><navLabel><text>Numerical Computation</text></navLabel><content src="numerical.html"/></navPoint>
+<navPoint id="navpoint-8" playOrder="8"><navLabel><text>Machine Learning Basics</text></navLabel><content src="ml_basics.html"/></navPoint>
+<navPoint id="navpoint-9" playOrder="9"><navLabel><text>Part II: Modern Practical Deep Networks</text></navLabel><content src="dp.html"/></navPoint>
+<navPoint id="navpoint-10" playOrder="10"><navLabel><text>Deep Feedforward Networks</text></navLabel><content src="deep_feedforward_networks.html"/></navPoint>
+<navPoint id="navpoint-11" playOrder="11"><navLabel><text>Regularization for Deep Learning</text></navLabel><content src="regularization.html"/></navPoint>
+<navPoint id="navpoint-12" playOrder="12"><navLabel><text>Optimization for Training Deep Models</text></navLabel><content src="optimization.html"/></navPoint>
+<navPoint id="navpoint-13" playOrder="13"><navLabel><text>Convolutional Networks</text></navLabel><content src="cnn.html"/></navPoint>
+<navPoint id="navpoint-14" playOrder="14"><navLabel><text>Recurrent and Recursive Networks</text></navLabel><content src="rnn.html"/></navPoint>
+<navPoint id="navpoint-15" playOrder="15"><navLabel><text>Practical Methodology</text></navLabel><content src="practical_methodology.html"/></navPoint>
+<navPoint id="navpoint-16" playOrder="16"><navLabel><text>Applications</text></navLabel><content src="applications.html"/></navPoint>
+</navMap>
+</ncx>
